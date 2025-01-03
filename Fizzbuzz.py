@@ -1,8 +1,6 @@
 num=input("Enter the num: ")
-num=int(num)
+num=int(1, num+1, 1)
 for i in range(num):
-    if i==0:
-        continue
     elif i%3==0 and i%5 ==0:
         print("FizzBuzz")
     elif i%3==0:
